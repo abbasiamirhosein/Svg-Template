@@ -1,0 +1,452 @@
+
+*
+    box-sizing: border-box  
+    font-family: sans-serif
+
+
+@mixin button ($width: 100px ,$borderWidth : 2px, $borderColor : #999 , $textcolor : #999) 
+    width: $width
+    text-align: center
+    border: $borderWidth solid $borderColor
+    border-radius: 50px 50px
+    padding: 15px 
+    color: $textcolor
+    font-weight: bold
+    cursor: pointer
+    transition: 0.5s
+    &:hover
+        transform: scale(1.05)
+        box-shadow: 0 0 3px 1px #888 
+
+
+@mixin font ($size:20px,$height:15px, $color:#777, $weight:300 )
+    font-size: $size
+    line-height: $height
+    color: $color
+    font-weight: $weight
+
+
+
+
+body
+    margin: 0
+    padding: 0  
+
+    .holder 
+        width: 820px 
+        margin: 0 auto
+
+
+    
+    header 
+        position: relative
+        overflow: hidden
+        height: 500px
+        background: rgb(255,189,102)
+        #login 
+            overflow: hidden
+            padding: 20px 50px
+            #btnLogin
+                @include button (120px ,3px,rgb(38,72,99) ,rgb(38,72,99)) 
+                float: right
+                padding: 10px
+        
+
+        .image
+            float: right
+            width: 100%
+            height: 83%
+            svg
+                width: 100%
+                float: right
+                height: 100%
+
+
+        .title
+            position: absolute
+            top: 40px
+            left: 0
+            width: 30%
+            height: 70%
+            float: left
+            padding: 70px 0px 70px 100px
+            h1
+                @include font (50px,20px, rgb(38,72,99) , bold ) 
+                text-shadow: 1px 1px 2px rgba(38,72,990,.5)
+            h3
+                @include font (20px,20px, #fafafa , bold )
+                text-shadow: 2px 2px 2px #ccc
+
+
+
+    #content 
+        width: 100%
+        padding: 10px
+        .titr 
+            width: 70%
+            padding: 30px
+            margin: 0 auto
+            text-align: center
+            h1
+                @include font (50px,normal, #555 , 200 )
+            h3 
+                @include font (normal,30px, #555 , 200 )
+        
+
+        .grid
+            padding: 5px 
+            width: 100%
+            #filterBox 
+                overflow: hidden
+                margin: 0 auto
+                padding: 8px
+                .filter 
+                    @include button (auto ,2px,#999 ,#999) 
+                    float: left
+                    padding: 10px 30px
+                    margin-right: 10px
+                    border-radius: 0
+                    font-weight: 300
+                    &:last-child
+                        margin-right: 0px
+                   
+                .filterSelect
+                    border:  2px solid rgb(38,72,99)
+                    background: rgb(38,72,99)
+                    color: white
+
+            .gridBox
+                padding: 5px
+                margin: 30px auto
+                overflow: hidden
+                .box
+                    width: 33.3%
+                    height: 250px
+                    float: left
+                    padding: 5px
+                    .subBox 
+                        width: 100%
+                        height: 100%
+                        .iconGrid
+                            width: 100%
+                            height: 65% 
+                            svg
+                                width: 100%
+                                height: 100%                                
+
+                        .desGrid
+                            width: 100%
+                            height: 35%
+                            padding: 5px 30px
+                            h3
+                                @include font (18px,normal, #fafafa, normal )
+                                padding: 0
+                                margin: 0
+                                height: 55%
+                                cursor: pointer
+                                transition: .5s
+                                &:hover
+                                    color: rgb(38,72,99)
+                            
+                            div
+                                float: left
+                                padding: 8px 0
+                                height: 45%
+
+                                i
+                                    @include font (16px,20px, #888, 200 )
+                            .view
+                                @include font (10px,22px, #555, bolder )
+                                margin-left: 8px
+                               
+                    &:nth-child(1)
+                        .subBox
+                            background: rgb(93,210,182) no-repeat center 10%
+                            background-size: 75% 
+                    &:nth-child(2)
+                        .subBox
+                            background: rgb(199,172,141) no-repeat 60% 20%
+                            background-size: 75%
+                    &:nth-child(3)
+                        .subBox
+                            background: rgb(80,192,234) no-repeat 30% 10%
+                            background-size: 65%
+                    &:nth-child(4)
+                        .subBox
+                            background: rgb(248,177,56) no-repeat center 10%
+                            background-size: 65%
+                    &:nth-child(5)
+                        .subBox
+                            background: rgb(243,126,84) no-repeat 10% center
+                            background-size: 40%
+                    &:nth-child(6)
+                        .subBox
+                            background: rgb(163,205,165) no-repeat 10% center
+                            background-size: 40%
+                    &:nth-child(7)
+                        .subBox
+                            background: rgb(131,156,153) no-repeat center 5%
+                            background-size: 65%          
+                .bigBox
+                    width: 66.6%
+                    .subBox 
+                        width: 100%
+                        height: 100%
+                        .iconGrid
+                            width: 40%
+                            height: 85% 
+                            float: left
+                            svg
+                                width: 100%
+                                height: 100%
+                        .desGrid 
+                            width: 60%
+                            height: 100% 
+                            float: left
+                            padding: 5px 0px
+                            h3
+                                @include font (20px,25px, #fafafa, normal )
+                                padding: 70px 50px
+                                margin: 0
+                                height: 55%
+
+                            div
+                                padding: 8px 0
+                                height: 45%
+                                margin-left: -170px
+                                i
+                                    @include font (16px,130px, #888, 200 )
+                            .view
+                                @include font (10px,130px, #555, bolder )
+                                margin-left: -145px
+
+
+            .more
+                padding: 30px
+                margin-bottom: 80px
+                .btnMore
+                    @include button (150px ,1px,#999 ,#555)                     
+                    font-size: 14px
+                    margin: 0 auto
+
+    #getBox
+        height: 450px 
+        padding: 70px 50px
+        border-top: 2px solid #999
+        border-bottom: 2px solid #999
+        background: url("../img/mobile.svg") rgb(235,235,235) no-repeat 20% 10%
+        background-size: 22%
+        .getdescription
+            width: 53% 
+            float: right
+            padding: 5px 15px
+            h1
+                @include font (55px,20px, rgb(38,72,99), normal )
+            p
+                @include font (30px,35px,#888, normal )
+                width: 80%
+            .btnGet
+                @include button (200px ,1px, rgb(38,72,99) ,#eee)
+                margin-top: 50px
+                background: rgb(38,72,99)
+
+    
+    #subscribeBox
+        height: 350px
+        background: white
+        padding: 40px 70px 
+        .subscribe
+            width: 50%
+            height: 100%
+            float: left
+            padding: 60px 10px
+            &:first-child
+                border-right: 2px solid #999
+                background: url("../img/email.svg") no-repeat 0% center
+            &:last-child
+                background: url("../img/lamp.svg") no-repeat 5% center
+                background-size: 22%
+            .des 
+                float: right
+                width: 70%
+                h1
+                    @include font (40px,15px,rgba(38,72,99,0.8),100)
+                p
+                    @include font (15px,5px,#888, 600)
+                div 
+                    @include font (20px,80px,rgba(38,72,99,0.8),bold)
+                    cursor: pointer
+                    transition: .3s
+                    &:hover
+                        color: rgba(38,72,99,1)
+                        font-size: 21px
+
+        
+
+
+
+    footer
+        width: 100%
+        height: 250px
+        background: rgb(39,49,70)
+        padding: 40px 100px 
+        .info
+            width: 300px
+            height: 100%
+            float: left
+            .about , .contact
+                width: 50%
+                height: 100%
+                float: left
+                cursor: pointer
+                h4
+                    @include font (14px,15px,#aaa,bolder)
+                h5
+                    transition: .2s
+                    @include font (12px,7px,#aaa,bolder)
+                    &:hover
+                        color: white
+                        font-weight: bold
+
+
+        .share
+            margin-top: 15px
+            height: 50px 
+            float: right
+            .logoShare 
+                width: 50px
+                margin: 0 10px
+                height: 100%
+                border: 1px solid #aaa
+                float: left
+                border-radius: 50%
+                text-align: center
+                cursor: pointer
+                transition: .5s
+                @include font (20px,50px,#aaa,normal)
+                &:hover
+                    color: white
+                    border-color: white
+                    font-size: 22px
+
+
+
+
+/* ---------------------------------- */
+/* --------     Animation     ------- */
+/* ---------------------------------- */
+
+
+@keyframes star
+    0%
+        stroke: white
+        transform: scaleX(1)
+    25%
+        stroke: yellow
+        transform: scaleX(1.01)
+    50%
+        stroke: white
+        transform: scaleX(1)
+    75%
+        stroke: yellow
+        transform: scaleX(1.01)
+    100%
+        stroke: white
+        transform: scaleX(1)
+
+@keyframes line1
+    0%
+        transform: translate(0,0)
+    50%
+        transform: translate(-200px,0)
+    100%
+        transform: translate(0px,0)
+
+@keyframes line2
+    0%
+        transform: translate(0,0)
+    50%
+        transform: translate(200px,0)
+    100%
+        transform: translate(0px,0)
+@keyframes line3
+    0%
+        transform: translate(0,0)
+    50%
+        transform: translate(-30px,0)
+    100%
+        transform: translate(0px,0)
+
+@keyframes cloud
+    0%
+        transform: translate(2700px,0)
+    100%
+        transform: translate(-3000px,0)
+
+
+@keyframes rain
+    0%
+        transform: translate(0,-400px)
+
+    100%
+        transform: translate(0,300px)
+
+@keyframes rain-cluod
+    0%
+        transform: translate(400px,0)
+    100%
+        transform: translate(-800px,0)
+
+@keyframes column-line
+    0%
+        transform: translateY(25px)
+    100%
+        transform: translateY(-300px)
+
+@keyframes column-parm
+    0%
+        stroke: white
+    50%
+        stroke: black
+    100%
+        stroke: white
+
+
+@keyframes Spacecraft-star
+    0%
+        stroke: yellow
+        transform: translate(0px,0px)
+    50%
+        stroke: white
+    100%
+        stroke: yellow
+        transform: translate(-80px,80px)
+
+@keyframes Spacecraft-line
+    0%
+        transform: translate(0px,0px)
+    100%
+        transform: translate(-80px,80px)
+
+@keyframes calButton1
+    0%
+        fill: red
+    50%
+        fill: white
+    100%
+        fill: red
+
+@keyframes calButton2
+    0%
+        fill: white
+    50%
+        fill: red
+    100%
+        fill: white
+
+@keyframes strokeWidth
+    0%
+        stroke-width: 0
+    100%
+        stroke-width: 30
+

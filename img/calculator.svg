@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="calculator" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.calculator-st18{fill:none;stroke:#0C0C0C;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.calculator-st19{fill:none;stroke:#0C0C0C;stroke-width:7;stroke-miterlimit:10;}
+</style>
+
+<g>
+	<path class="calculator-st18" d="M189,142H453c9.4,0,17,8.6,17,19.3v384.4c0,10.7-7.6,19.3-17,19.3H189c-9.4,0-17-8.6-17-19.3V161.3
+		C172,150.6,179.6,142,189,142z"/>
+	<path class="calculator-st19 calMonitor" d="M416,264H226c-7.7,0-14-6.3-14-14v-52c0-7.7,6.3-14,14-14h190c7.7,0,14,6.3,14,14v52
+		C430,257.7,423.7,264,416,264z"/>
+	<circle class="calculator-st19" cx="241.3" cy="334.8" r="26.5"/>
+	<circle class="calculator-st19" cx="320" cy="335" r="26.5"/>
+	<circle class="calculator-st19" cx="400" cy="335" r="26.5"/>
+	<circle class="calculator-st19" cx="241" cy="415" r="26.5"/>
+	<circle class="calculator-st19" cx="320" cy="415" r="26.5"/>
+	<circle class="calculator-st19" cx="400" cy="415" r="26.5"/>
+	<circle class="calculator-st19" cx="241" cy="495" r="26.5"/>
+	<circle class="calculator-st19" cx="320" cy="494" r="26.5"/>
+	<circle class="calculator-st19" cx="400" cy="494" r="26.5"/>
+	<line class="calculator-st18" x1="241" y1="610" x2="307" y2="610"/>
+	<line class="calculator-st18" x1="346" y1="610" x2="487" y2="610"/>
+	<line class="calculator-st18" x1="519" y1="610" x2="563" y2="610"/>
+	<line class="calculator-st18" x1="470" y1="581" x2="553" y2="581"/>
+	<circle class="calculator-st18" cx="597.5" cy="278.5" r="71.5"/>
+	<line class="calculator-st18" x1="563" y1="278" x2="633" y2="278"/>
+	<line class="calculator-st18" x1="597" y1="243" x2="598" y2="313"/>
+	<path class="calculator-st18" d="M470,510c0,0,75.1,5.3,114-48c27-37,17-112,17-112"/>
+	<circle class="calculator-st18" cx="88.5" cy="509.5" r="55.5"/>
+	<line class="calculator-st18" x1="110" y1="481" x2="68" y2="538"/>
+	<line class="calculator-st18" x1="112.4" y1="536.9" x2="67.6" y2="482.1"/>
+	<line class="calculator-st18" x1="137.7" y1="286" x2="115.8" y2="315"/>
+	<line class="calculator-st18" x1="139" y1="314.4" x2="115.6" y2="286.6"/>
+	<line class="calculator-st18" x1="383.7" y1="79" x2="361.8" y2="108"/>
+	<line class="calculator-st18" x1="385" y1="107.4" x2="361.6" y2="79.6"/>
+	<line class="calculator-st18" x1="109" y1="71.5" x2="162" y2="71.5"/>
+	<line class="calculator-st18" x1="134.7" y1="45" x2="135.5" y2="98"/>
+	<circle class="calculator-st18" cx="94.5" cy="140.5" r="14.5"/>
+	<circle class="calculator-st18" cx="455" cy="59" r="15"/>
+</g>
+</svg>

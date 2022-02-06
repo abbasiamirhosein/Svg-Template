@@ -1,0 +1,566 @@
+/* ----------------------------------- */
+
+/* -------- lighthouse style --------- */
+
+/* ----------------------------------- */
+
+.lighthouse-st0 {
+    fill: #FFFFFF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st1 {
+    fill: none;
+    stroke: #264863;
+    stroke-width: 9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    box-shadow: 0 0 5px 2px yellow
+}
+
+.anim1 {
+    animation: line2 10s infinite linear;
+}
+
+.anim2 {
+    animation: line1 10s infinite linear;
+}
+
+.anim3 {
+    animation: line2 15s infinite linear;
+}
+
+.anim4 {
+    animation: line1 15s infinite linear;
+}
+
+.anim5 {
+    animation: line2 20s infinite linear;
+}
+
+.anim6 {
+    animation: line1 20s infinite linear;
+}
+
+.lighthouse-st2 {
+    fill: #FFFFFF;
+    stroke: #264863;
+    stroke-width: 20;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st3 {
+    fill: #CDE7F6;
+}
+
+.lighthouse-st4 {
+    fill: #7DD0FF;
+    stroke: #264863;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st5 {
+    fill: none;
+    stroke: #264863;
+    stroke-width: 14;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st6 {
+    fill: none;
+    stroke: #264863;
+    stroke-width: 20;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st7 {
+    fill: none;
+    stroke: #264863;
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st8 {
+    fill: #FFFFFF;
+    stroke: #264863;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st9 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 14;
+    stroke-miterlimit: 10;
+}
+
+polygon.lighthouse-st9 {
+    animation: star 10s infinite linear;
+}
+
+.lighthouse-st10 {
+    fill: none;
+    stroke: #264863;
+    stroke-width: 16;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.lighthouse-st10:nth-child(2n+1) {
+    animation: cloud 130s infinite linear;
+}
+
+.lighthouse-st10:nth-child(2n) {
+    animation: cloud 80s infinite linear;
+}
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*----------------  rain  -----------------*/
+
+/*-----------------------------------------*/
+
+.rain-st13 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.rain-st14 {
+    fill: none;
+    stroke: #050505;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.rain-st15 {
+    fill: none;
+    stroke: #278EE2;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transform: translate(0, -300px)
+}
+
+.subBox:hover .rain-st15:nth-child(2n+1) {
+    animation: rain 5s infinite linear;
+}
+
+.subBox:hover .rain-st15:nth-child(2n) {
+    animation: rain 3s infinite linear;
+}
+
+.subBox:hover .rain-anim:nth-child(2n+1) {
+    animation: rain-cluod 16s infinite linear;
+}
+
+.subBox:hover .rain-anim:nth-child(2n) {
+    animation: rain-cluod 25s infinite linear;
+}
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*----------------  column  -----------------*/
+
+/*-----------------------------------------*/
+
+#column {
+    margin-top: 20px
+}
+
+.column-st16 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.column-st19 {
+    fill: #0C0C0C;
+}
+
+.column-st24 {
+    fill: #C7AD8D;
+    stroke: #000000;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.column-st25 {
+    fill: #FBB94E;
+}
+
+.column-st26 {
+    fill: #C7AD8D;
+    stroke: #0F0F0F;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+
+.column-st27 {
+    fill: #C7AD8D;
+}
+
+.column-st28 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.column-st29 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 2;
+}
+
+.column-st30 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 28;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.column-st31 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+.column-st32 {
+    fill: #A79077;
+}
+
+.column-st33 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.column-st34 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.subBox:hover .column-anim1 {
+    animation: column-line 5s infinite linear;
+}
+
+.subBox:hover .column-anim2 {
+    animation: column-parm 2s infinite linear;
+}
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*---------------  Spacecraft  ------------*/
+
+/*-----------------------------------------*/
+
+#Spacecraft {
+    padding-right: 50px;
+}
+
+.Spacecraft-st16 {
+    fill: #0A0A0A;
+}
+
+.Spacecraft-st17 {
+    fill: none;
+    stroke: #0A0A0A;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.star-anim {
+    stroke: white
+}
+
+.subBox:hover .line-anim:nth-child(2n+1) {
+    animation: Spacecraft-line 1s infinite linear;
+}
+
+.subBox:hover .line-anim:nth-child(2n),
+.subBox:hover #Spacecraft circle {
+    animation: Spacecraft-line 3s infinite linear;
+}
+
+.subBox:hover .star-anim {
+    animation: Spacecraft-star 2s infinite linear;
+}
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*---------------  Wallet  ------------*/
+
+/*-----------------------------------------*/
+
+.wallet-st20 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.wallet-st21 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 11;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.walletPaper {
+    fill: rgb(255, 167, 16);
+}
+
+.walletBut {
+    fill: rgb(247, 156, 0);
+}
+
+.subBox:hover .wallet-anim {
+    animation: column-parm 2s infinite linear;
+}
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*---------------  calculator  ------------*/
+
+/*-----------------------------------------*/
+
+#calculator {
+    padding: 20px 5px
+}
+
+.calculator-st18 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.calculator-st19 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+
+.calMonitor {
+    fill: rgb(196, 78, 37);
+}
+
+.subBox:hover .calParm {
+    animation: column-parm 2s infinite linear;
+}
+
+.subBox:hover .calButton:nth-child(2n) {
+    fill: white;
+    animation: calButton1 2s infinite linear;
+}
+
+.subBox:hover .calButton:nth-child(2n+1) {
+    fill: white;
+    animation: calButton2 2s infinite linear;
+}
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*----------------  house  ---------------*/
+
+/*-----------------------------------------*/
+
+#house {
+    padding: 20px 5px
+}
+
+.house-st21 {
+    fill: #0C0C0C;
+}
+
+.house-st22 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.house-st23 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.house-st24 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.house-st25 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.house-st26 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.subBox:hover .houseParm {
+    animation: column-parm 2s infinite linear;
+}
+
+.subBox:hover .houseline {
+    animation: line3 1s infinite linear;
+}
+
+
+/*-----------------------------------------*/
+
+/*------------ grid box1 style ------------*/
+
+/*---------------  apartement  ------------*/
+
+/*-----------------------------------------*/
+
+#apartment {
+    padding-right: 25px;
+}
+
+.apartment-st26 {
+    fill: none;
+    stroke: rgb(247, 247, 247);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: strokeWidth 20s linear;
+}
+
+.apartment-st27 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.apartment-st28 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.apartment-st29 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 18;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.apartment-st30 {
+    fill: none;
+    stroke: #0C0C0C;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.apartment-st31 {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transform: translate(0, -300px)
+}
+
+.subBox:hover .apartment-st26 {
+    animation: strokeWidth 100s infinite linear;
+}
+
+.subBox:hover .snow:nth-child(2n+1) {
+    animation: rain 3s infinite linear;
+}
+
+.subBox:hover .snow:nth-child(2n) {
+    animation: rain 4s infinite linear;
+}
